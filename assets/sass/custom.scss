@@ -1,0 +1,9 @@
+//去除所有a标签的下划线
+a {
+    text-decoration: none; //去除下划线
+}
+
+.post-a-unstyled{
+    margin-left: 10px;
+    cursor: pointer;//修改鼠标指针样式
+}

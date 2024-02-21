@@ -6,11 +6,11 @@
         {{ range .Pages }}
         <li>
             {{ if ne $outerName "Categories" }}
-                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-                {{ .Date.Format "Jan 2 2006" }}
+                <time datetime="{{ .Date.Format "2006-01-02 15:04:05" | safeHTML }}">
+                {{ .Date.Format "2006-01-02" }}
                 </time>
             {{ end }}
-            <a href="{{ .RelPermalink }}">
+            <a class="post-a-unstyled" href="{{ .RelPermalink }}">
                 {{ .Title }}
             </a>
         </li>

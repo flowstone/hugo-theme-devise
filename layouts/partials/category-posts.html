@@ -11,8 +11,8 @@
                 <ul class="list-unstyled">
                     {{ range first $recent (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
                         <li>
-                            {{ .Date.Format "Jan 2 2006" }}
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            {{ .Date.Format "2006-01-02" }}
+                            <a class="post-a-unstyled" href="{{ .Permalink }}">{{ .Title }}</a>
                         </li>
                     {{ end }}
                 </ul>
@@ -29,8 +29,8 @@
                     <ul class="list-unstyled">
                         {{ range $taxonomy.Pages }}
                             <li>
-                                {{ .Date.Format "Jan 2 2006" }}
-                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                {{ .Date.Format "2006-01-02" }}
+                                <a  class="post-a-unstyled" href="{{ .Permalink }}">{{ .Title }}</a>
                             </li>
                         {{ end }}
                     </ul>

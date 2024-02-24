@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="pl-sm-4 ml-sm-5">
-    <h4>{{ if eq .Name "Categories" }} Categories {{ else }} Category - {{ .Name }} {{ end }}</h4>
+    <h4>{{ if eq .Name "Categories" }} 分类 {{ else }} 分类 - {{ .Name }} {{ end }}</h4>
     {{ $outerName := .Name }}
     <ul class="list-unstyled">
         {{ range .Pages }}

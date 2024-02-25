@@ -62,3 +62,20 @@ table, th, td{
     border-collapse: collapse;/* 移除单元格之间的间隔 */
     border-color: gray;
 }
+/**
+* 文章中的粗体
+*/
+article strong {
+    font-size: 25px;
+    color: rgb(212, 15, 15);
+    margin: 5px 5px;
+    background-color: #ecf800;
+}
+/**
+* 文章中的斜体
+*/
+article em {
+    font-size: 20px;
+    color: rgb(0, 166, 255);
+    margin: 5px 5px;
+}

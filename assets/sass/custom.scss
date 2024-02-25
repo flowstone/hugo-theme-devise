@@ -7,3 +7,58 @@ a {
     margin-left: 10px;
     cursor: pointer;//修改鼠标指针样式
 }
+article h3 {
+    color: rgb(14, 138, 235);    
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-right-style: none;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 5px;
+    border-right-width: 1px;
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(14, 136, 235);
+    border-right-color: rgb(0, 0, 0);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 10px;
+}
+
+article h4{
+    color: rgb(14, 138, 235);
+}
+
+article h5 {
+    color: rgb(14, 138, 235);
+}
+
+.container blockquote:before{
+    quotes: none;
+    
+}
+.container blockquote {
+    padding: 15px 10px;
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 15px;
+    margin-left: 0;
+    color: #819198;
+    border-left: 6px solid #dce6f0;
+    background: #f2f7fb;
+    display: block;
+}
+table {
+    margin: 20px 10px;
+}
+
+
+table, th, td{
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;/* 移除单元格之间的间隔 */
+    border-color: gray;
+}

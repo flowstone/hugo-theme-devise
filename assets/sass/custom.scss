@@ -51,31 +51,55 @@ article h5 {
     background: #f2f7fb;
     display: block;
 }
+
+// --------表格样式 start--------
 table {
-    margin: 20px 10px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-
-table, th, td{
-    padding: 10px;
-    border: 2px solid black;
-    border-collapse: collapse;/* 移除单元格之间的间隔 */
-    border-color: gray;
+table td,table th {
+    border: 1px solid #cad9ea;
+    color: #666;
+    height: 30px;
 }
-/**
-* 文章中的粗体
-*/
+
+table thead th {
+    background-color: #CCE8EB;
+}
+table td {
+    padding: 0 30px;
+}
+table tr:nth-child(odd) {
+    background: #fff;
+}
+
+table tr:nth-child(even) {
+    background: #F5FAFA;
+}
+//--------表格样式 end--------
+
+//--------文章样式 start--------
+// 文章中的粗体
 article strong {
     font-size: 25px;
     color: rgb(212, 15, 15);
     margin: 5px 5px;
     background-color: #ecf800;
 }
-/**
-* 文章中的斜体
-*/
+// 文章中的斜体
 article em {
     font-size: 20px;
     color: rgb(0, 166, 255);
     margin: 5px 5px;
 }
+
+// 文章中的图片
+article img {
+    border: 2px dashed rgb(14, 149, 217);
+    border-radius: 10px;
+    margin: 10px;
+}
+//--------文章样式 start--------
